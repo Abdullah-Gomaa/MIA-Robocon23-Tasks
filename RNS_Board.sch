@@ -963,11 +963,6 @@
 <label x="30.48" y="5.08" size="1.778" layer="95" align="bottom-right" grouprefs="INPUT_POWER"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="A" pin="1"/>
-<wire x1="149.86" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91" grouprefs="MPU_6050"/>
-<label x="139.7" y="76.2" size="1.778" layer="95" grouprefs="MPU_6050"/>
-</segment>
-<segment>
 <pinref part="JP5" gate="A" pin="3"/>
 <wire x1="149.86" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="91" grouprefs="TTL"/>
 <label x="139.7" y="22.86" size="1.778" layer="95" grouprefs="TTL"/>
@@ -1146,6 +1141,11 @@
 <pinref part="U$1" gate="G$1" pin="3.3V@2"/>
 <wire x1="109.22" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
 <label x="121.92" y="81.28" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="1"/>
+<wire x1="149.86" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91" grouprefs="MPU_6050"/>
+<label x="139.7" y="76.2" size="1.778" layer="95" grouprefs="MPU_6050"/>
 </segment>
 </net>
 <net name="GND@2" class="0">
